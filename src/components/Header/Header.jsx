@@ -10,13 +10,14 @@ const Header = () => {
             <NavLink className="hover:text-blue-600 mr-6" to={'/appliedJobs'}>Applied Jobs</NavLink>
             <NavLink className="hover:text-blue-600 mr-6" to={'/blog'}>Blog</NavLink>
             <NavLink className="hover:text-blue-600 mr-6" to={'/job'}>Job</NavLink>
+            
         </div>
     </>
 
     return (
         <>
 
-            <div className=" pt-8">
+            <div className="pt-8">
                 <div className="navbar bg-white">
                     <div className="navbar-start">
                         <div className="dropdown">
